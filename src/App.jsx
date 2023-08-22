@@ -15,9 +15,11 @@ function App() {
           <AppBody>
             <SideBsr />
             <Routes>
-              <Route path="/" exact />
-                <Route path="/" element={<Chat />}/>
+                {/* <Route path="/" element={<Chat />}/> */}
+                {/* <Route path="/" exact/>
+                <Chat /> */}
             </Routes>
+            <Chat />
           </AppBody>
         </>
       </Router>
